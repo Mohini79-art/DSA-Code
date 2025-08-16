@@ -1,0 +1,25 @@
+class Solution {
+    public ListNode oddEvenList(ListNode head) {
+        ListNode dummyeven=new ListNode(0);
+        ListNode dummyodd=new ListNode(0);
+      ListNode even=dummyeven;
+      ListNode odd=dummyodd;
+       ListNode curr=head;
+       int idx=1;
+       while(curr!=null){
+        if(idx%2!=0){
+          odd.next=curr;
+            odd=odd.next;
+        }
+        else{
+            even.next=curr;
+            even=even.next;
+        }
+        curr=curr.next;
+        idx++;
+       } 
+       even.next=null;
+       odd.next=dummyeven.next;
+       return dummyodd.next;
+    }
+}
