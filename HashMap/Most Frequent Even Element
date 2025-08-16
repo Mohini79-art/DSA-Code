@@ -1,0 +1,21 @@
+class Solution {
+    public int mostFrequentEven(int[] arr) {
+         HashMap<Integer,Integer>map=new HashMap<>();
+       Arrays.sort(arr);
+       int maxfreq=0;
+       int mostfreq=-1;
+       for(int i=0;i<arr.length;i++){
+        int ele=arr[i];
+           if(ele % 2 == 0) {
+                map.put(ele, map.getOrDefault(ele, 0) + 1);
+                int freq = map.get(ele);
+
+                if(freq > maxfreq || (freq == maxfreq && ele < mostfreq)) {
+                    maxfreq = freq;
+                    mostfreq = ele;
+                }
+            }
+       }
+       return mostfreq;
+    }
+}
