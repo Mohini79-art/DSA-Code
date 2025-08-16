@@ -1,0 +1,32 @@
+class Solution {
+    public int evalRPN(String[] arr) {
+       
+        Stack<String> st = new Stack<>();
+        int res = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            String ch = arr[i];
+            if (!ch.equals("+") && !ch.equals("-") && !ch.equals("*") && !ch.equals("/")) {
+                st.push(ch);
+            } else {
+                if (st.size() < 2) {
+                    System.out.println("Invalid Expression");
+                    
+                }
+
+                int b = Integer.parseInt(st.pop());
+                int a = Integer.parseInt(st.pop());
+
+                switch (ch) {
+                    case "+": res = a + b; break;
+                    case "-": res = a - b; break;
+                    case "*": res = a * b; break;
+                    case "/": res = a / b; break;
+                }
+
+                st.push(String.valueOf(res));
+            }
+        }
+        return Integer.parseInt(st.pop());
+    }
+}
