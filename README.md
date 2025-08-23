@@ -55,22 +55,6 @@ Edit
 
 ---
 
-## 💻 Projects Included
-### 🔹 **Java Quiz Project**
-A simple console-based quiz program for practicing Java basics.
-**Features:**
-- 5 MCQs
-- Correct/Incorrect feedback
-- Final score display
-
-### 🔹 **ATM Simulation Project**
-A mini console app for learning OOP concepts in Java.
-**Features:**
-- Withdraw/Deposit
-- Balance check
-- PIN authentication
-
----
 
 ## 🛠 Tech Stack
 - Language: **Java**
