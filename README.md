@@ -95,23 +95,3 @@ java ATM
 - **GitHub**: [Mohini79-art](https://github.com/Mohini79-art)
 
 
-⭐ If you like this repo, don’t forget to star it!
-yaml
-Copy code
-
----
-
-✅ **Kya karna hai:**
-- README.md file open karo.
-- Purana content delete karo.
-- Upar wala text copy-paste karo.
-- Commit changes ✅.
-
----
-
-❓ **Chaho main tumhare liye NEXT version banaun jisme:**
-- DSA problems ka **table of contents with links** (Arrays, HashMap, Strings, etc.)
-- **Badges for GitHub stars, forks**
-- **Profile stats badges** for GitHub + LeetCode?
-
-👉 Batao **banau kya?**
