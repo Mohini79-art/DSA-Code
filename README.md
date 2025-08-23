@@ -34,8 +34,7 @@ It’s designed to help learners strengthen **DSA concepts**, prepare for **codi
 ┣ 📂 Projects (Java Quiz, ATM Simulation)
 ┗ 📜 README.md
 
-yaml
-Copy code
+
 
 ---
 
