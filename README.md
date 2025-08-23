@@ -1,52 +1,117 @@
-# Java Quiz Project
+# 🚀 DSA Code in Java
 
-👋 Welcome to the Java Quiz Project!
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-100-green)
 
-Ye project ek **simple Java console-based quiz** hai. Iska purpose hai Java practice karna aur basic programming knowledge check karna.
+---
 
-## Features
-- User-friendly console interface.
-- 5 multiple-choice questions.
-- ✅ Correct answer check with feedback.
-- ❌ Wrong answer feedback with correct answer display.
-- Final score and percentage calculation.
+## 📌 About
+This repository contains **Java implementations of popular Data Structures and Algorithms**, along with some **mini projects** for practice.  
+It’s designed to help learners strengthen **DSA concepts**, prepare for **coding interviews**, and practice **problem-solving**.
 
-## How It Works
-1. Program user ka naam greet karta hai aur quiz start karta hai.
-2. Questions ek array me stored hain, aur unke options dusre array me.
-3. User input ke through answer deta hai.
-4. Program:
-   - Check karta hai agar answer correct hai.
-   - Correct answer ke liye score increment karta hai.
-   - Wrong answer ke liye correct answer display karta hai.
-5. Quiz ke end me program total score aur percentage calculate karke display karta hai.
+---
 
-## How to Run
-1. Clone ya download repository.
-2. Open project in a Java IDE ya terminal.
-3. Compile and run `Main.java`.
-4. Screen pe instructions follow karo aur answers enter karo.
-5. Quiz complete hone ke baad total score aur percentage dekh sakte ho.
+## ✅ Features
+- Well-organized topic-wise folders.
+- Java-based solutions for DSA problems.
+- Mini projects like:
+  - **Java Quiz Project**
+  - **ATM Simulation Project**
+- Beginner-friendly code.
 
-## Example Output
+---
 
-👋 Welcome Mohini!
-📘 Start java practice:
+## 📂 Folder Structure
+📦 DSA-Code
+┣ 📂 Arrays
+┣ 📂 HashMap
+┣ 📂 HashSet
+┣ 📂 Linked List
+┣ 📂 Sliding Window
+┣ 📂 Stack
+┣ 📂 Strings
+┣ 📂 Two Pointer
+┣ 📂 Projects (Java Quiz, ATM Simulation)
+┗ 📜 README.md
 
-What is the capital of India?
-A. Mumbai
-B. Delhi
-C. Kolkata
-D. Chennai
-Enter your answer: B
-✅ your answer is correct :B
-...
-🏁 Your total score is: 4
-📊 Your total percentage is: 80.0%
+yaml
+Copy code
 
-shell
-Copy
-Edit
+---
 
-## Author
-Mohini
+## 🛠 How to Run
+```bash
+# Clone the repo
+git clone https://github.com/Mohini79-art/DSA-Code.git
+
+# Open folder
+cd DSA-Code
+
+# Compile and Run
+javac filename.java
+java filename
+🚀 Projects Included
+📝 Java Quiz Project
+A simple console-based Java quiz application designed for practice and learning Java basics.
+
+✅ Features:
+
+5 Multiple-choice questions
+
+Correct answer feedback ✔
+
+Wrong answer feedback ❌
+
+Final score and percentage calculation
+
+▶ How to Run:
+
+bash
+Copy code
+cd Projects
+javac JavaQuiz.java
+java JavaQuiz
+💳 ATM Simulation Project
+A basic ATM simulation program to practice Java OOP concepts.
+
+✅ Features:
+
+Check balance
+
+Withdraw & Deposit functionality
+
+PIN verification
+
+▶ How to Run:
+
+bash
+Copy code
+cd Projects
+javac ATM.java
+java ATM
+## 🔗 Connect with Me
+- **LinkedIn**: [My Profile]((https://www.linkedin.com/in/mohini-298952364/))
+- **LeetCode**: [My Profile]((https://leetcode.com/u/df0Fzqq95o/))
+- **GitHub**: [Mohini79-art](https://github.com/Mohini79-art)
+
+
+⭐ If you like this repo, don’t forget to star it!
+yaml
+Copy code
+
+---
+
+✅ **Kya karna hai:**
+- README.md file open karo.
+- Purana content delete karo.
+- Upar wala text copy-paste karo.
+- Commit changes ✅.
+
+---
+
+❓ **Chaho main tumhare liye NEXT version banaun jisme:**
+- DSA problems ka **table of contents with links** (Arrays, HashMap, Strings, etc.)
+- **Badges for GitHub stars, forks**
+- **Profile stats badges** for GitHub + LeetCode?
+
+👉 Batao **banau kya?**
